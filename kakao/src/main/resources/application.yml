@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mydb
+    username: ndarkness
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show_sql: true
